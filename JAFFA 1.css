@@ -49,3 +49,22 @@ body {
     border-radius: 10px;
     margin-top: 20px;
   }
+.yes-button {
+  font-size: 1.2rem;
+  padding: 12px 30px;
+  background-color: #ff4d6d;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 10px #ff4d6d;
+  }
+  to {
+    box-shadow: 0 0 25px #ff99ac;
+  }
+}
